@@ -1,8 +1,10 @@
+package oops;
+
 /**
  * 12_OOP_Encapsulation.java - Access Modifiers and Getters/Setters
  */
 
-class OOP_Encapsulation {
+class Encapsulation {
     public static void main(String[] args) {
         BankAccount account = new BankAccount("12345", 1000);
 

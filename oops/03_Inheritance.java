@@ -1,8 +1,10 @@
+package oops;
+
 /**
  * 11_OOP_Inheritance.java - Inheritance and Method Overriding
  */
 
-class OOP_Inheritance {
+class Inheritance {
     public static void main(String[] args) {
         Dog dog = new Dog("Buddy", 3);
         dog.eat(); // Inherited from Animal
