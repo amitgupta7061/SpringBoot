@@ -1,4 +1,4 @@
-package biterush.src.main.java.com.biterush.backend.config;
+package com.biterush.backend.config;
 
 public class MongoConfig {
     public void init(){

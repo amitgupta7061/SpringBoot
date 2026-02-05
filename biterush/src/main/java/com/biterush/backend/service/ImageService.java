@@ -1,4 +1,9 @@
-package biterush.src.main.java.com.biterush.backend.service;
+package com.biterush.backend.service;
+
+import org.springframework.web.multipart.MultipartFile;
+
+import com.cloudinary.Cloudinary;
+import com.cloudinary.utils.ObjectUtils;
 
 public class ImageService {
     private final Cloudinary cloudinary;
