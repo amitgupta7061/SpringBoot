@@ -1,0 +1,24 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dev" class="org.demo.Dev">
+        <!--setter Injection for age-->
+        <!--<property name="age" value="16" />-->
+
+
+        <!--for reference-->
+        <property name="com" ref="laptop_1" />
+    </bean>
+
+<!--    <bean id="dev1" class="org.demo.Dev">-->
+<!--        &lt;!&ndash;constructor Injection&ndash;&gt;-->
+<!--        <constructor-arg value="14" />-->
+<!--    </bean>-->
+
+    <bean id="dev" class="org.demo.Dev" autowire="byName"> </bean>
+
+    <bean id="laptop_1" class="org.demo.Laptop"> </bean>
+</beans>
